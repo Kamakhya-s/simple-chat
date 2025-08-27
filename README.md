@@ -1,30 +1,15 @@
-# Chai Aur Bot – Dual Persona Chat
+# Simple Chat App = An AI-based Chat Application
 
-**Chai Aur Bot** is a web-based AI chat application that allows users to interact with multiple AI personas. Each persona has a unique teaching style, tone, and personality, designed to provide guidance, coding advice, and motivational insights in a conversational manner.
-
----
-
-## Screenshots
-
-### Talking to Hitesh Choudhary Sir
-<img width="1572" height="849" alt="Screenshot (182)" src="https://github.com/user-attachments/assets/053d2cd4-f68e-4f7a-8fa8-04f9baf52b2d" />
-
-### Talking to Piyush Garg Sir
-<img width="1704" height="859" alt="Screenshot (183)" src="https://github.com/user-attachments/assets/f8a296e9-f7ba-41b8-ab3c-c66742ea6cd2" />
+**Simple Chat** is a web-based AI chat application that allows users to interact to provide guidance, coding advice, motivational insights and much more in a conversational manner.
 
 ---
+
 
 ## Features
-
-- **Dual Personas**:  
-  - **Hitesh Choudhary** – Friendly, motivational, Hinglish, project-oriented, humorous.  
-  - **Piyush Garg** – Energetic, practical, project-focused, emoji-rich, action-oriented.
 
 - **Realistic Chat UI**: Smooth scrolling, timestamped messages, and visually appealing chat bubbles.
 
 - **Markdown & Code Support**: AI responses can include formatted text, tables, and syntax-highlighted code blocks.
-
-- **Persona Switching**: Easily switch between personas to get guidance in different styles.
 
 - **Responsive Design**: Fully responsive layout for desktop and mobile.
 
@@ -72,12 +57,9 @@
 
 ```
 /app
-  /data
-    personas.js          # Persona definitions (Hitesh Choudhary & Piyush Garg)
   /api
     gemini-chat/route.js # Backend API to fetch AI responses
-  /components
-    DualPersonaChat.js   # Main chat component
+ page.js
 ```
 
 ---
@@ -85,7 +67,6 @@
 ## Usage
 
 * Type a message in the input box and press **Enter** or click the **Send** button.
-* Switch between personas to receive answers in different teaching styles.
 * AI responses can include **code snippets**, **Markdown**, and **emojis**.
 
 ---
@@ -112,3 +93,4 @@ This project is open-source and available under the MIT License.
 * Dark/Light theme toggle
 * Voice input and output
 * Chat history and export
+
